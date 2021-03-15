@@ -11,4 +11,6 @@ router.get("/", (req, res) => {
 router.get("/login", (req, res) => {
     res.render("home/login");
 
-})
+});
+
+module.exports = router;
